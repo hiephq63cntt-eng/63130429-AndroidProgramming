@@ -56,6 +56,7 @@
         android:layout_marginStart="120dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="120dp"
+        android:onClick="XuLyCong"
         android:text="Tính Tổng"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +73,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnCong" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editKQ"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
